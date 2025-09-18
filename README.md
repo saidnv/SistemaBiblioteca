@@ -1,8 +1,8 @@
 👨‍💻👩‍💻 Integrantes del Proyecto
 
 Robinson Said Nolasco Vallejos
-
 Belinda Adela Yata Pinaud
+
 --------------------------------------
 
 📝 Descripción del Proyecto
