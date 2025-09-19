@@ -22,22 +22,6 @@ Control de ejemplares disponibles.
 
 Registro y seguimiento de préstamos y devoluciones.
 
-🏛️ Arquitectura
-
-El proyecto sigue la Arquitectura Hexagonal, dividiéndose en las siguientes capas:
-
-Dominio (Core):
-Contiene las entidades y lógica de negocio principal del sistema.
-
-Aplicación (Use Cases):
-Casos de uso que orquestan las operaciones del dominio.
-
-Infraestructura (Adapters):
-Implementaciones concretas (repositorios, controladores REST, conexión a la base de datos).
-
-Puertos (Ports):
-Interfaces que definen contratos para la comunicación entre capas.
-
 🗄️ Modelo de Base de Datos
 
 El sistema se conecta a una base de datos MySQL con las siguientes tablas principales:
@@ -69,7 +53,5 @@ Spring Data JPA
 MySQL
 
 Maven
-
-Arquitectura Hexagonal (Ports & Adapters)
 
 REST API para la comunicación con clientes externos
