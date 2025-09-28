@@ -4,6 +4,11 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 
+
+/**
+ * Entidad que representa a un Usuario dentro del sistema de biblioteca.
+ * Un usuario puede realizar préstamos de libros y está registrado con sus datos personales.
+ */
 @Entity
 @Table(name = "usuarios")
 public class Usuario {

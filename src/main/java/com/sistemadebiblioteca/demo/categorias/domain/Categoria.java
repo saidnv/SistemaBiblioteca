@@ -6,6 +6,11 @@ import jakarta.persistence.*;
 @Table(name = "categorias")
 public class Categoria {
 
+    /**
+    * Entidad que representa una Categoría dentro del sistema de biblioteca.
+    * Una categoría sirve para clasificar los libros en distintos géneros o tipos.
+    */
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idCategoria;
